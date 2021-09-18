@@ -79,7 +79,7 @@ macro_rules! soft_assert {
 macro_rules! soft_assert_eq {
     ($x:expr, $y:expr) => {
         if { $x } != { $y } {
-            return;
+            return Default::default();
         }
     };
     ($x:expr, $y:expr,) => {
@@ -110,7 +110,7 @@ macro_rules! soft_assert_eq {
 macro_rules! soft_assert_ne {
     ($x:expr, $y:expr) => {
         if { $x } == { $y } {
-            return;
+            return Default::default();
         }
     };
     ($x:expr, $y:expr,) => {
@@ -142,7 +142,7 @@ macro_rules! soft_assert_matches {
     ($e:expr, $p:pat) => {
         match $e {
             $p => (),
-            _ => return;
+            _ => return Default::default();
         }
     };
     ($e:expr, $p:pat,) => {
