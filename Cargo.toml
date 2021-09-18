@@ -1,5 +1,5 @@
 [package]
-categories = ["rust patterns"]
+categories = ["rust-patterns"]
 description = "Non-panicking assertions"
 edition = "2018"
 keywords = ["macros", "utility"]
