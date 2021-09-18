@@ -6,7 +6,7 @@ keywords = ["macros", "utility"]
 license = "Apache-2.0/MIT"
 name = "soft_assert"
 repository = "https://github.com/Cyborus04/soft_assert"
-version = "0.1.0"
+version = "0.1.1"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
