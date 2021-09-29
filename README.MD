@@ -1,4 +1,5 @@
-[![Crate](https://img.shields.io/crates/v/soft_assert.svg)](https://crates.io/crates/soft_assert)
+[![Crate](https://img.shields.io/crates/v/soft_assert?style=flat-square)](https://crates.io/crates/soft_assert)
+[![](https://img.shields.io/github/workflow/status/Cyborus04/soft_assert/Rust?style=flat-square)](https://github.com/Cyborus04/soft_assert/actions/workflows/rust.yml)
 
 # `soft_assert`
 
