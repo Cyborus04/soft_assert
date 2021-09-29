@@ -1,4 +1,4 @@
-[![Crate](https://img.shields.io/crates/v/rand.svg)](https://crates.io/crates/soft_assert)
+[![Crate](https://img.shields.io/crates/v/soft_assert.svg)](https://crates.io/crates/soft_assert)
 
 # `soft_assert`
 
